@@ -1,7 +1,9 @@
-Dalam materi ini saya mempelajari :
+# 03_version control and branch management (git)
 
-Git
-Setting up
-Branches
-💡 Apa itu Git ?
-Git adalah perangkat lunak version control atau proyek manajemen kode perangkat lunak yang diciptakan oleh Linus Torvalds (2005). Git sendiri merupakan salah satu version control system populer yang digunakan para developer untuk mengembangkan software secara bersama - sama.
+## resume
+1. github
+2. membuat repository dan setting
+3. membuat Branch
+
+### penjelasan tentang github
+    github adalah platform khusus developer yang dibuat karena trinspirasi dari cara bekerja para programmer. Gampangnya github itu seperti : media sosial contohnya instagram, twitter dan facebook.
