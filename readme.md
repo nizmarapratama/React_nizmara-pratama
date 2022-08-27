@@ -1,1 +1,1 @@
-# Resume Figma
+# Resume Figma.
