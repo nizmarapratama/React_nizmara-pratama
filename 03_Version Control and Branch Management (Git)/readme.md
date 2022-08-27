@@ -21,4 +21,4 @@ bisa membuatnya dari file yang sudah kita buat pada saat pertama kali, bisa juga
 ## pengertian fix dan feat
 
 Fix :  komit dari tipe FIX menambal bug di basis kode Anda (ini berkorelasi dengan tambalan dalam versi semantik
-Feat : komit tipe feat memperkenalkan fitur baru ke basis kode (ini berkorelasi dengan minor dalam versi semantik)
+Feat : komit tipe feat memperkenalkan fitur baru ke basis kode (ini berkorelasi dengan minor dalam versi semantik).
