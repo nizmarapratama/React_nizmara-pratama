@@ -7,7 +7,7 @@
 
 ## langkat membuat repositori
 
-1. yang pertama sudah membuat akun github
+1. yang pertama sudah membuat akun github,
 2. lalu klik create New Repository
 3. lalu isi nama Repository dan deskripsinya
 4. Di github ada dua jenis Repository yaitu PUBLIC dan PRIVATE, Public artinya  repository yang sudah kita buat bisa di lihat untuk semua orang sedangkan private hanya kita dan team yang kita tentukan saja.
