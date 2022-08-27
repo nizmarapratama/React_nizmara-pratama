@@ -25,3 +25,10 @@
 
 1. Tidak bisa dijalankan tanpa koneksi internet
 2. Membutuhkan kapasitas RAM yang lumayan dan graphic card yang mumpuni.
+
+## Tools yang ada pada Figma
+
+1. Prototyping. Fitur ini memudahkan dalam demonstrasi aplikasi
+2. Smart Animate. Fitur ini membuat desain aplikasi lebih nyata
+3. Dukungan Plugin.
+4. Auto Layout.
