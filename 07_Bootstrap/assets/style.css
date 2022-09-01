@@ -1,0 +1,13 @@
+a {
+    color: gray !important;
+}
+
+a:hover {
+    color: mediumaquamarine !important;
+}
+
+.text-welcome {
+    margin-top: 50px !important;
+    color: mediumaquamarine;
+    font-family: "Philosopher", sans-serif;
+}
