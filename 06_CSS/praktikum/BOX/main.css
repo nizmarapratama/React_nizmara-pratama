@@ -1,0 +1,34 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container-space-around {
+    justify-content: space-around;
+}
+
+.container-center {
+    justify-content: center;
+}
+
+.container-start {
+    justify-content: start;
+}
+
+.container-end {
+    justify-content: end;
+}
+
+.shape {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 15px;
+}
