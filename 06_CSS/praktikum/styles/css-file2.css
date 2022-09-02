@@ -48,8 +48,8 @@ nav .navbar-menu .menu-item {
 }
 
 main .header {
-    text-align: center;
-    color: rgba(35, 87, 118, 1);
+    margin-bottom: 30px;
+    
 }
 
 main .header h1 {
@@ -61,7 +61,7 @@ main .body {
     margin: 0px 250px;
 }
 
-main .list-post {
+main.list-post {
     padding: 30px;
     background-color: white;
     border-bottom: 1px solid rgba(192, 192. 192);
@@ -70,7 +70,6 @@ main .list-post {
 main .list-post h3 {
     padding: 30px;
     background-color: white;
-    borde
 }
 
 footer .body {
