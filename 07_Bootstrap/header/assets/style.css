@@ -5,3 +5,10 @@ a {
 a:hover {
     color: mediumaquamarine !important;
 }
+
+
+  .text-simple {
+    margin-top: 100px !important;
+    color: grey;
+    font-family: "Philosopher", sans-serif;
+  }
