@@ -28,4 +28,3 @@ nama = b;
 console.log("asal diaksees = " + asal);
 console.log("a adalah = " + a);
 console.log("b adalah = " + b);
-
