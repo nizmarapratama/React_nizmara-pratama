@@ -1,0 +1,7 @@
+jawaban no 2
+
+A. karena pada fariable terdaftar nilainya false sedangkan kondosinya true (jika ingin mengubah nilai terdaftar bisa menggunakan tanda !terdaftar maka hasilnya akan sama dengan lawan dari nilai terdaftar)
+
+B. karena fariable const tidak bisa di deklasi ulang(pembuatan ulang fariable) dan tidak bisa mengubah nilai dari variable tersebut.
+
+C. Bisa, akan tetapi di baris 28 memiliki error tersendiri(kasus yang berbeda)
