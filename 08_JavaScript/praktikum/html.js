@@ -31,7 +31,7 @@ console.log("a adalah = " + a );
 console.log("b adalah = " + b );
 perkenalan()
 
-
+// JAWABAN NO 2
 // 2.a karena pada fariable terdaftar nilainya false sedangkan kondosinya true (jika ingin mengubah nilai terdaftar bisa menggunakan tanda !terdaftar maka hasilnya akan sama dengan lawan dari nilai terdaftar)
 // 2.b karena fariable const tidak bisa di deklasi ulang(pembuatan ulang fariable) dan tidak bisa mengubah nilai dari variable tersebut.
 // 2.c Bisa, akan tetapi di baris 28 memiliki error tersendiri(kasus yang berbeda)
