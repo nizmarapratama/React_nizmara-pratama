@@ -29,7 +29,7 @@
     const nama = "Nizmara; 
     let age = 21;
 
-- Penamaan Variable :
+  - Penamaan Variable :
   
     // penulisan yang buruk
     const useraddress = "";
@@ -39,7 +39,7 @@
     const userAddress = "";
     const isActive = true;
 
-- Penamaan function :
+  - Penamaan function :
    
     // penulisan yang buruk
     function my_function() {}
@@ -49,7 +49,7 @@
     function myFunction() {}
     function myJob () {}
 
-- Penamaan Class :
+  - Penamaan Class :
 
     // penulisan yang buruk
     class car {}
