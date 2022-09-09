@@ -19,10 +19,16 @@
 ## BEBERAPA CONTOH PENGGUNAAN CLEAN CODE
 
 - Beberapa contoh penggunaan Clean Code pada JavaScript :
+  
   - Variable :
 
-    <!-- penulisan yang buruk -->
-    <!-- var nama = "Nizmara"; -->
-    <!-- peenulisan yang baik -->
-    <!-- const nama = "Nizmara; -->
-    <!-- let age = 21; -->
+// penulisan yang buruk 
+    var nama = "Nizmara";
+
+// peenulisan yang baik 
+    const nama = "Nizmara; 
+    let age = 21;
+
+- Penamaan Variable :
+  
+  
