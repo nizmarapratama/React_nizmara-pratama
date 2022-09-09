@@ -22,13 +22,37 @@
   
   - Variable :
 
-// penulisan yang buruk 
+    // penulisan yang buruk 
     var nama = "Nizmara";
 
-// peenulisan yang baik 
+    // peenulisan yang benar 
     const nama = "Nizmara; 
     let age = 21;
 
 - Penamaan Variable :
   
-  
+    // penulisan yang buruk
+    const useraddress = "";
+    const is_active = true;
+
+    // penulisan yang benar
+    const userAddress = "";
+    const isActive = true;
+
+- Penamaan function :
+   
+    // penulisan yang buruk
+    function my_function() {}
+    function myjob() {}
+
+    // penulisan yang benar
+    function myFunction() {}
+    function myJob () {}
+
+- Penamaan Class :
+
+    // penulisan yang buruk
+    class car {}
+
+    // penulisan yang benar
+    class Car {}
