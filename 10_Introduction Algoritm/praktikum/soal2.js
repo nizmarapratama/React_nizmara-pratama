@@ -12,5 +12,9 @@ function lampuTombol(n) {
     }
 }
 
-// 
+// contoh masukan = 5 
+// contoh keluar = lampu mati
+
+// contoh masukan = 4
+// contoh keluar = Lampu menyala
 lampuTombol(4);
