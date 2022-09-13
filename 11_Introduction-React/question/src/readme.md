@@ -90,3 +90,8 @@ CMD ini juga sudah terpasang secara bawaan pada OS (tidak perlu install)
 ![image](Screenshoots/HomeJS-1.jpg)
 ![image](Screenshoots/HomeJS-2.jpg)
 ![image](Screenshoots/Soal1.jpg)
+![image](Screenshoots/Home.jpg)
+![image](Screenshoots/About.jpg)
+![image](Screenshoots/Form Contact.jpg)
+
+
