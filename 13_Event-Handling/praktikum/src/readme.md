@@ -83,4 +83,4 @@ event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, misa
    ![image](img/AppCss-3.jpg)
 
 5. ## Hasil TODOs
-   ![image](img/Hasil-TODOs-1.jpg)
+   ![image](img/Hasil-TODOs.jpg)
