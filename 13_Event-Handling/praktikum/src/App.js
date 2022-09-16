@@ -44,7 +44,7 @@ function App() {
   let sortedTodos = todos.sort((a, b) => b.important - a.important)
   return (
     <div className="todo-app">
-      <h1>Todo List</h1>
+      <h1>TODOs</h1>
       <TodoForm addTodo={addTodo} />
       <hr className="seperator"/>
       {sortedTodos.map((todo) => {

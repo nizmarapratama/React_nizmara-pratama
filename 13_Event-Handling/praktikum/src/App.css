@@ -38,8 +38,11 @@ body {
 }
 
 h1 {
-  margin: 32px 0;
+  margin: 32px;
   font-size: 33px;
+  background: -webkit-linear-gradient(rgb(31, 24, 131), rgb(0, 170, 182), rgb(0, 170, 15), rgb(32, 20, 343));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .complete {
