@@ -54,7 +54,7 @@ event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, misa
 3. Mouse Events (onClick,onDoubleClick,onMouseOver)
 4. Generic Events (onErorr, onLoad)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 
 ## Assigment Event Handling
 
@@ -65,7 +65,7 @@ event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, misa
     4. Sertakan tombol hapus untuk menghapus suatu pekerjaan dari daftar pekerjaan
     5. Apabila inputan yang anda submit tersebut kosong, tampilkan alert bahwa anda harus   mengisi inputan terlebih dahulu sebelum anda submit.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 
 1. ## App.js
    ![image](img/AppJS-1.jpg)
