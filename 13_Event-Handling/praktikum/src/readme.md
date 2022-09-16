@@ -63,7 +63,7 @@ event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, misa
     2. Terdapat checklist pada setiap daftar pekerjaan
     3. akttifitas checklist jika pekerjaan selesai dikerjakan, seperti contoh di bawah
     4. Sertakan tombol hapus untuk menghapus suatu pekerjaan dari daftar pekerjaan
-    5. Apabila inputan yang anda submit tersebut kosong, tampilkan alert bahwa anda harus   mengisi inputan terlebih dahulu sebelum anda submit.
+    5. Apabila inputan yang anda submit tersebut kosong, tampilkan alert bahwa anda harus   mengisi inputan terlebih dahulu sebelum anda submit
 
 ----------------------------------------------------------------------------------------------
 
