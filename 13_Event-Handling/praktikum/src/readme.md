@@ -10,7 +10,7 @@ State adalah data private senuah component. Data ini hanya tersedia untuk compon
 3. bersifat Asynchronous
 4. dipakai dalam class
 
---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 
 # STATEFUL & STATELESS COMPONENT
 
@@ -53,3 +53,17 @@ event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, misa
 2. Form Events (onChange,onSubmit)
 3. Mouse Events (onClick,onDoubleClick,onMouseOver)
 4. Generic Events (onErorr, onLoad)
+
+----------------------------------------------------------------------------------------------
+
+## Assigment Event Handling
+
+Buatlah daftar pekerjaan yang akan kamu kerjakan, dengan kriteria sebagai berikut:
+    1. Daftar pekerjaan dapat ditambahkan menggunakan inputan
+    2. Terdapat checklist pada setiap daftar pekerjaan
+    3. akttifitas checklist jika pekerjaan selesai dikerjakan, seperti contoh di bawah
+    4. Sertakan tombol hapus untuk menghapus suatu pekerjaan dari daftar pekerjaan
+    5. Apabila inputan yang anda submit tersebut kosong, tampilkan alert bahwa anda harus   mengisi inputan terlebih dahulu sebelum anda submit.
+
+
+
