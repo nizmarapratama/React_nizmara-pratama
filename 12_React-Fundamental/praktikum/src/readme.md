@@ -121,3 +121,20 @@ React tidak memiliki pendapat tentang bagaimana cara memasukkan file ke folder
 ## JANGAN TERLALU MEMIKIRKANNYA
 
 --------------------------------------------------------------------------------------------------
+
+## Membuat aplikasi daftar tugas (TODO list) yang memiliki 3 field yaitu :
+- id (number)
+- nama(string)
+- completed(boolean)
+
+1. Codingan App.js
+   ![image](img/AppJS.jpg)
+
+2. Form pada codingan TODO APP
+   ![image](img/FormJS.jpg)
+
+3. Css pada TODO APP
+   ![image](img/AppCss.jpg)
+
+4. Hasil Websitenya
+   ![image](img/HasilTODOApp.jpg)
