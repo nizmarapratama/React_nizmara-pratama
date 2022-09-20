@@ -128,13 +128,11 @@ React tidak memiliki pendapat tentang bagaimana cara memasukkan file ke folder
 - completed(boolean)
 
 1. Codingan App.js
-   ![image](img/AppJS.jpg)
+   ![image](img/App.js.jpg)
 
-2. Form pada codingan TODO APP
-   ![image](img/FormJS.jpg)
 
-3. Css pada TODO APP
-   ![image](img/AppCss.jpg)
+2. Css pada TODO APP
+   ![image](img/App.css.jpg)
 
-4. Hasil Websitenya
-   ![image](img/HasilTODOApp.jpg)
+3. Hasil Websitenya
+   ![image](img/HasilTodoApp.jpg)
