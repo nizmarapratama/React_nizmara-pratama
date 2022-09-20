@@ -135,4 +135,4 @@ React tidak memiliki pendapat tentang bagaimana cara memasukkan file ke folder
    ![image](img/App.css.jpg)
 
 3. Hasil Websitenya
-   ![image](img/HasilTodoApp.jpg)
+   ![image]
