@@ -1,41 +1,51 @@
-import React, { useState } from "react";
-
-import Form from "./Form";
+import React from "react";
 import "./App.css";
 
-export default () => {
-  const [todos, setTodos] = useState([]);
-
-  const toggleComplete = (i) =>
-    setTodos(
-      todos.map((todo, k) =>
-        k === i
-          ? {
-              ...todo,
-              complete: !todo.complete,
-            }
-          : todo
-      )
-    );
-
+function App() {
+  const todos = [
+    {
+      id: 1,
+      title: "Membuat Komponent",
+      completed: true,
+    },
+    {
+      id: 2,
+      title: "Unit Testing",
+      completed: false,
+    },
+    {
+      id: 3,
+      title: "Setup Development Environment",
+      completed: true,
+    },
+    {
+      id: 4,
+      title: "Deploy ke server",
+      completed: false,
+    },
+  ];
   return (
-    <div className="App">
-      <h1>TODO APP</h1>
-      <Form onSubmit={(text) => setTodos([{ text, complete: false }, ...todos])} />
-      <div>
-        {todos.map(({ text, complete }, i) => (
-          <div
-            key={text}
-            onClick={() => toggleComplete(i)}
-            style={{
-              textDecoration: complete ? "line-through" : "",
-            }}
-          >
-            {text}
-          </div>
-        ))}
+    <div className="container">
+      <div className="container-item-header">
+        <h3>To Do Apps</h3>
+        <hr />
       </div>
-      <button onClick={() => setTodos([])}>reset</button>
+      <div className="container-item main-section">
+        {todos.length !== 0 ? (
+          todos.map((todo) => {
+            const { id, title, completed } = todo;
+            return (
+              <p key={id} className={completed ? "todo-title todo-title-done" : "todo-title"}>
+                {title}
+              </p>
+            );
+          })
+        ) : (
+          <p>Now Loading...</p>
+        )}
+      </div>
     </div>
   );
-};
+}
+
+export default App;

@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+  
+    &-item {
+      width: 75%;
+      margin: auto;
+      h3 {
+        text-align: center;
+      }
+    }
+  }
+  
+  .todo {
+    &-title {
+      padding: 8px;
+      font-weight: bold;
+      border: 2px solid #000;
+      border-radius: 2rem;
+      width: fit-content;
+  
+      &-done {
+        text-decoration: line-through;
+      }
+    }
+  }
