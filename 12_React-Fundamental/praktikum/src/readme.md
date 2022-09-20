@@ -136,4 +136,3 @@ React tidak memiliki pendapat tentang bagaimana cara memasukkan file ke folder
 
 3. Hasil Websitenya
    ![image](img/HasilTodoApp.jpg)
-   
