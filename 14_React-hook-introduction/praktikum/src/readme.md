@@ -87,3 +87,29 @@ Ini mengembalikan sepasang nilai: state saat ini dan fungsi untuk melakukan pemb
 ## Membuat Custom Hooks
 
 Membuat Hook kita sendiri memungkinkan kita mengekstrak komponen logika ke fungsi yang dapat digunakan lagi.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Ubah Class Component pada assigment sebelumnya menjadi function component. Sekaligus ubah lifesysle method & state management menggunakan React Hooks.
+
+1. App.js
+   ![image](img/App.js.jpg)
+
+   ![image](img/App.js2.jpg)
+
+2. App.css
+   ![image](img/App.css.jpg)
+
+   ![image](img/App.css2.jpg)
+
+   ![image](img/App.css3.jpg)
+
+3. TodoForm.js
+   ![image](img/TodoForm.js.jpg)
+
+4. TodoItem.js
+   ![image](img/TodoItem.js.jpg)
+
+5. Hasil Todo App
+   ![image](img/HasilTodo.jpg)
+   
