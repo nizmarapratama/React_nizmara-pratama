@@ -102,7 +102,7 @@ Membuat Hook kita sendiri memungkinkan kita mengekstrak komponen logika ke fungs
 
    ![image](img/App.css2.jpg)
 
-   ![image](img/App.css3.jpg)
+   ![image](img/app.css3.jpg)
 
 3. TodoForm.js
    ![image](img/TodoForm.js.jpg)
