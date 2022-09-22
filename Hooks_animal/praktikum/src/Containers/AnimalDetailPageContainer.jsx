@@ -8,7 +8,7 @@ const AnimalDetailPageContainer = () => {
     const history = useNavigate();
     const [animalData, setAnimalData] = useState();
     useEffect( () => {
-        const animal = animals.find((animal) => animal.id === +id);
+        const animal = animals.find((anml) => anml.id === +id);
         if(animal) {
             setAnimalData(animal);
         }
@@ -17,7 +17,7 @@ const AnimalDetailPageContainer = () => {
     const handleGoBack = () => {
         Navigate(-1);
     }
-
+    
     return (
         <AnimalDetailPage animalData={animalData} handleGoBack={handleGoBack}/>
     )

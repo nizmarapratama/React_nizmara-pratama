@@ -1,5 +1,6 @@
-import { Form } from 'react-router-dom';
+// import { Form } from 'react-router-dom';
 import Animal  from './Animal';
+import React from 'react';
 import './App.css';
 import Home from './Home';
 import { Route, Routes} from "react-router-dom";
@@ -7,7 +8,7 @@ import { Animal } from "./Animal";
 import AnimalPageContainer from './Containers/AnimalPageContainer';
 import AnimalDetailPageContainer from './Containers/AnimalDetailPageContainer';
 
-function App() {
+function App ()  {
   return (
     <Routes>
        <Route path="/" exact element={<Home />} />
@@ -17,5 +18,11 @@ function App() {
    
   )
 }
+
+// return (
+//   <div className="App">
+//     <Animal/>
+//   </div>
+// )
 
 export default App;

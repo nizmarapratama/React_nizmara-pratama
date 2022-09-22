@@ -1,4 +1,5 @@
 import AnimalDetailPageContainer from "../Containers/AnimalDetailPageContainer";
+import React from "react";
 
 const AnimalDetailPage = (
     {
@@ -9,26 +10,22 @@ const AnimalDetailPage = (
 
     const renderData = () => (
         <div className="d-flex flex-column align-items-center">
-            <img src={animalData.imageLink} alt={animalData.id} style={{width: '200px', height: '200px'}}
+            <img src={animalData.imageLink} alt={animalData.id} style={{width: '200px', height: '200px'}}/>
             <span>Name : {animalData.name}</span>
             <span>Diet : {animalData.diet}</span>
-            <span>Waktu idup : {animalData.activeTime}</span>
-            <button className="btn btn-primary">Balik</button>
+            <button className="btn btn-succes" onClick={handleGoBack}>Back</button>
         </div>
     )
-}
-
-const AnimalDetailPage = () => {
-    return (
+    return(
         <div>
             {
-            Animal Detail
-            ?
-            renderData()
-            :
-            <div>Data Kosong</div>
-        }
-            </div>
+                animalData
+                ?
+                renderData()
+                :
+                <div>Data Kosong</div>
+            }
+        </div>
     )
 }
 

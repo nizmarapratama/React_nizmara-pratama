@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import { animals } from "./data";
+import './App.css';
 
 const Animal = () => {
     const [AnimalList, setAnimalList] = useState(animals);
@@ -23,7 +24,7 @@ const Animal = () => {
     })
 
 
-    return () => (
+    return (
         <div className="d-flex flex-column justify-content-start align-items-center">
         <input className="form-control mb-3"
         value={searchWords}
