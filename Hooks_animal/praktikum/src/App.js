@@ -7,6 +7,7 @@ import { Route, Routes} from "react-router-dom";
 import { Animal } from "./Animal";
 import AnimalPageContainer from './Containers/AnimalPageContainer';
 import AnimalDetailPageContainer from './Containers/AnimalDetailPageContainer';
+import FormPageContainer from './Containers/FormPagecontainer';
 
 function App ()  {
   return (
@@ -14,15 +15,12 @@ function App ()  {
        <Route path="/" exact element={<Home />} />
        <Route path="/animal" exact element={<AnimalPageContainer />} />
        <Route path="/animal/:id" exact element={<AnimalDetailPageContainer />} />
+       <Route path="/form" exact element={<FormPageContainer />} />
     </Routes>
    
   )
 }
 
-// return (
-//   <div className="App">
-//     <Animal/>
-//   </div>
-// )
+
 
 export default App;
