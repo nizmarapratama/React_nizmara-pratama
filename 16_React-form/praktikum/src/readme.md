@@ -73,7 +73,7 @@ Sebuah elemen masukan form yang nilainya dikontrol oleh React melalui cara seper
 
 Pada HTML, elemen form seperti <input>, <textarea> dan <select> biasanya menyimpan state mereka sendiri dengan memperbaruinya berdasarkan masukan dari pengguna. Di React, state yang dapatberubah seperti ini biasanya disimpan pada properti dari komponen dan hanya akan diubah menggunakan setState().
 
-## Tag Textarea
+## TAG TEXTAREA
 
 Textarea pada HTML
 
