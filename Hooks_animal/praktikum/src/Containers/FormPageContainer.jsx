@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import FormPage from "../Components/FormPage.jsx";
 
 const FormPageContainer = () => {
-    const [formData, setFormData] = useState("");
-}
-
 // const FormPageContainer = () => {
 //   const [email, setEmail] = useState("");
 //   const [password, setPassword] = useState("");
@@ -23,29 +20,41 @@ const [formData, setFormData] = useState({
 const [isPasswordError, setIsPasswordError] = useState(false);
 
 const handleChangeformData = (ev) => {
-    if (ev.)
+    if (ev.target.name === "hobby") {
+        setFormData({
+            ...formData, [ev.target.name]: [...formData.hobby, ev.target.value]
+        })
+        return ;
 }
- 
-
-  const handleChange = (ev) => {
-    if(e.target.name === "email") {
-      setEmail(e.target.value)
-    }
-    if (ev.target.name === "name") {
-      setName(e.target.value);
-    }
-    if (ev.target.name === "gender") {
-        setGender(ev.target.value);
-    }
-    if (ev.target.name === "password") {
-      if (ev.target.value.length < 5) {
-        setIsPasswordError(true)
-      } else {
+if (ev.target.name === "password") {
+    if (ev.target.value.length < 5) {
+    } else {
         setIsPasswordError(false)
-      }
-      setPassword(ev.target.value)
     }
-  }
+}
+setFormData ({
+    ...formData, [ev.target.name]: ev.target.value
+   })
+}
+//   const handleChange = (ev) => {
+//     if(e.target.name === "email") {
+//       setEmail(e.target.value)
+//     }
+//     if (ev.target.name === "name") {
+//       setName(e.target.value);
+//     }
+//     if (ev.target.name === "gender") {
+//         setGender(ev.target.value);
+//     }
+//     if (ev.target.name === "password") {
+//       if (ev.target.value.length < 5) {
+//         setIsPasswordError(true)
+//       } else {
+//         setIsPasswordError(false)
+//       }
+//       setPassword(ev.target.value)
+//     }
+//   }
 
   const handleSubmit = (ev) => {
     const form  = ev.currentTarget;
@@ -53,7 +62,9 @@ const handleChangeformData = (ev) => {
       ev.preventDefault();
       ev.stopPropagation();
     }
-    alert(formData.name + "\n" + formData.email + "\n" + formData.password + "\n" + formData.gender)
+    // alernt(name + "\n" + email + "\n" + password + "\n" + gender + "\n" + formData.hobby)
+    alert(formData.name + "\n" + formData.email + "\n" + formData.password + 
+    "\n" + formData.gender + "\n" + formData.hobby)
 
     ev.preventDefault();
   }

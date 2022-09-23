@@ -23,7 +23,7 @@ const FormPage = (
             value={name}
             onChange={(ev) => handleChange(ev)}
             required
-            placeholder="ex: namamu"
+            placeholder="ex: Rully"
           />
         </Form.Group>
         <Form.Group className="mb-3 d-flex flex-column align-items-start">
@@ -34,7 +34,7 @@ const FormPage = (
             value={email}
             onChange={(ev) => handleChange(ev)}
             required
-            placeholder="ex: hahaha@gmail.com"
+            placeholder="ex: blabla@gmail.com"
           />
         </Form.Group>
         <Form.Group className="mb-3 d-flex flex-column align-items-start" >
@@ -57,35 +57,53 @@ const FormPage = (
         <Form.Group className="mb-3 d-flex flex-column align-items-start" >
           <Form.Label>Gender</Form.Label>
           <Stack gap={2} direction="horizontal">
-          <Form.Check
-            name="gender"
-            type="radio"
-            label="laki-laki"
-            value="L"
-            required
-            onChange={(ev) => handleChange(ev)}
-          />
-          <Form.Check
-            name="gender"
-            type="radio"
-            label="Perempuan"
-            value="P"
-            required
-            onChange={(ev) => handleChange(ev)}
-          />
-          <Form.Group className="mb-3 d-flex flex-column align-items-start" >
+            <Form.Check
+              name="gender"
+              type="radio"
+              label="Laki-Laki"
+              value="L"
+              required
+              onChange={(ev) => handleChange(ev)}
+            />
+            <Form.Check
+              name="gender"
+              type="radio"
+              label="Perempuan"
+              value="P"
+              required
+              onChange={(ev) => handleChange(ev)}
+            />
+          </Stack>
+        </Form.Group>
+        <Form.Group className="mb-3 d-flex flex-column align-items-start"
+                    onChange={(ev) => handleChange(ev)} >
           <Form.Label>Hobby</Form.Label>
           <Stack gap={2} direction="horizontal">
-          <Form.Check
-            name="hobby"
-            type="flexbox"
-            label="laki-laki"
-            value="L"
-            required
-            onChange={(ev) => handleChange(ev)}
-          />
+            <Form.Check
+              name="hobby"
+              type="checkbox"
+              label="Ngegame"
+              value="ngegame"
+            />
+            <Form.Check
+              name="hobby"
+              type="checkbox"
+              label="Ngoding"
+              value="ngoding"
+            />
+            <Form.Check
+              name="hobby"
+              type="checkbox"
+              label="Kuliner"
+              value="kuliner"
+            />
+            <Form.Check
+              name="hobby"
+              type="checkbox"
+              label="Baca Buku"
+              value="baca buku"
+            />
           </Stack>
-          
         </Form.Group>
         <Button variant="success" type="submit" disabled={isPasswordError}>
           Submit
