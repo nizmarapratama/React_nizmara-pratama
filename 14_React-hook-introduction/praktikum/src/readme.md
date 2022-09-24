@@ -95,21 +95,17 @@ Membuat Hook kita sendiri memungkinkan kita mengekstrak komponen logika ke fungs
 1. App.js
    ![image](img/App.js.jpg)
 
-   ![image](img/App.js2.jpg)
+2. Home.js
+   ![image](img/Home-1.js.jpg)
 
-2. App.css
-   ![image](img/App.css.jpg)
+   ![image](img/Home-2.js.jpg)
 
-   ![image](img/App.css2.jpg)
+3. ToDoInput.js
+   ![image](img/ToDoInput.js.jpg)
 
-   ![image](img/app.css3.jpg)
+4. ToDoList.js
+   ![image](img/ToDoList.js.jpg)
 
-3. TodoForm.js
-   ![image](img/TodoForm.js.jpg)
-
-4. TodoItem.js
-   ![image](img/TodoItem.js.jpg)
-
-5. Hasil Todo App
-   ![image](img/HasilTodo.jpg)
+5. Hasil Todo
+   ![image](img/Hasil-Todo.jpg)
    
