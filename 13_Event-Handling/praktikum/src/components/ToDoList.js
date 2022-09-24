@@ -12,7 +12,7 @@ const ToDoList = ({ data, hapusToDo, handleChange }) => {
                 handleChange(todo.id);
               }}
             />
-            <p style={todo.completed ? { textDecoration: "line-through", color: "red" } : { textDecoration: "none" }}>{todo.title}</p>
+            <p style={todo.completed ? { textDecoration: "line-through", color: "Green" } : { textDecoration: "none" }}>{todo.title}</p>
             <button
               onClick={() => {
                 hapusToDo(todo.id);

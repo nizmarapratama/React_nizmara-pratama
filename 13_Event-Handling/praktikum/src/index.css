@@ -7,7 +7,7 @@
 }
 body {
   margin: 0;
-  background-image: url(../public/assets/sample-pattern.png);
+  background-image: url(../public/assets/sample-4.jpg);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,7 +17,7 @@ body {
 }
 .home .title {
   letter-spacing: 2px;
-  background: linear-gradient(#f7dd8a, #489c20, #0d71c4);
+  background: linear-gradient(#6ed18f, #26a37e, #005a3f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4rem;
