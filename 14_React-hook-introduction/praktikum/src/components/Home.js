@@ -50,7 +50,7 @@ function Home () {
 
   return(
     <div className="home">
-      <h1 className="title">todos</h1>
+      <h1 className="title">TODOs</h1>
       <ToDoInput tambahToDo={tambahToDo}/>
       <ToDoList data={data} hapusToDo={hapusToDo} handleChange={handleCheckboxChange}/>
     </div>
