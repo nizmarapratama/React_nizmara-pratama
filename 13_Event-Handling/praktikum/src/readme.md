@@ -68,19 +68,13 @@ event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, misa
 ----------------------------------------------------------------------------------------------
 
 1. ## App.js
-   ![image](img/AppJS-1.jpg)
-   ![image](img/AppJS-2.jpg)
+   ![image](img/App.js.jpg)
 
-2. ## TodoForm.js
-   ![image](img/TodoForm.jpg)
+2. ## ToDoInput.js
+   ![image](img/ToDoInput.js.jpg)
 
-3. ## TodoItem.js
-   ![image](img/TodoItem.jpg)
+3. ## ToDoList.js
+   ![image](img/ToDoList.js.jpg)
 
-4. ## App.css
-   ![image](img/AppCss-1.jpg)
-   ![image](img/AppCss-2.jpg)
-   ![image](img/AppCss-3.jpg)
-
-5. ## Hasil TODOs
-   ![image](img/Hasil-TODOs.jpg)
+4. ## Hasil TODOs
+   ![image]()
