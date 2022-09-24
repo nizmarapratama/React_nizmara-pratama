@@ -70,11 +70,15 @@ event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, misa
 1. ## App.js
    ![image](img/App.js.jpg)
 
-2. ## ToDoInput.js
+2. ## Home.js
+   ![image](img/Home.js.jpg) 
+   ![image](img/Home-2.js.jpg) 
+
+3. ## ToDoInput.js
    ![image](img/ToDoInput.js.jpg)
 
-3. ## ToDoList.js
+4. ## ToDoList.js
    ![image](img/ToDoList.js.jpg)
 
-4. ## Hasil TODOs
-   ![image]()
+5. ## Hasil TODOs
+   ![image](img/Hasil%20Todo.jpg)
