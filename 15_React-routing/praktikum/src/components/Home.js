@@ -49,7 +49,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <h1 className="title">ToDoS</h1>
+        <h1 className="title">TODOs</h1>
         <ToDoInput tambahToDo={this.tambahToDo} />
         <ToDoList data={this.state.data} hapusToDo={this.hapusToDo} handleChange={this.handleCheckboxChange} />
       </div>

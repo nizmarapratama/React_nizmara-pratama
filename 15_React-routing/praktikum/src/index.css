@@ -7,14 +7,14 @@
 }
 body {
   margin: 0;
-  background-image: url(../public/assets/white-concrete-wall.jpg);
+  background-image: url(../public/assets/sample-4.jpg);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .home .title {
   letter-spacing: 2px;
-  background: linear-gradient(#f07a1f, #266ee3);
+  background: linear-gradient(#6ed18f, #26a37e, #005a3f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4rem;
@@ -49,7 +49,7 @@ nav ul {
   left: 0;
   width: 250px;
   height: 100%;
-  background-color: #3498eb;
+  background-color: #90cbc7;
 }
 .container-todo {
   display: flex;
