@@ -1,13 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-image: url(../public/assets/white-concrete-wall.jpg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.home .title {
+  letter-spacing: 2px;
+  background: linear-gradient(#f07a1f, #266ee3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  padding: 20px 0;
+}
+.sidebar h1 {
+  color: #f2f2f2;
+  margin: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #f2f2f2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 65px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+nav ul {
+  padding-left: 0;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #3498eb;
+}
+.container-todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  width: 500px;
+  height: 45px;
+  border: 2px solid #f2f2f2;
+  margin: 10px auto;
+  background-color: #fff;
+  box-shadow: 10px 11px 6px -5px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 10px 11px 6px -5px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 10px 11px 6px -5px rgba(0, 0, 0, 0.11);
+}
+.home h1 {
+  text-align: center;
+}
+.container-todo input {
+  border: none;
+  height: 35px;
+  width: 400px;
+  margin-left: 10px;
+}
+.container-todo input:focus {
+  outline: none;
+}
+.container-todo input::-webkit-input-placeholder {
+  color: #000;
+  font-weight: bold;
+}
+.container-todo button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: bold;
+  height: 30px;
+  width: 80px;
+}
+
+/* Todo List */
+.todo-list {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.todo-list input {
+  flex-grow: 0;
+  margin: 20px;
+}
+.todo-list p {
+  flex-grow: 1;
+  text-align: start;
+}
+.todo-list button {
+  font-weight: bold;
+  width: 80px;
+  border: none;
+  flex-grow: 0;
+  background-color: transparent;
+}
+
+.about {
+  padding-top: 30px;
+  margin-left: 300px;
+  max-width: 1200px;
+  text-align: justify;
+}
+
+.about-app h3,
+.about h2,
+.about-author h3 {
+  padding: 20px 0;
 }
