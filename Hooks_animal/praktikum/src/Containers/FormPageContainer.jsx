@@ -1,7 +1,14 @@
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import FormPage from "../Components/FormPage.jsx";
+import { useSelector } from "react-redux";
+import { Navigate, useNavigate } from "react-router-dom";
+import { setUserEmail } from "../features/userSlice";
 
 const FormPageContainer = () => {
+  const count = useSelector((state) => state.counter.value);
+  const dispatch = useDispatch();
+  const Navigate = useNavigate();
 // const FormPageContainer = () => {
 //   const [email, setEmail] = useState("");
 //   const [password, setPassword] = useState("");
@@ -63,15 +70,17 @@ setFormData ({
       ev.stopPropagation();
     }
     // alernt(name + "\n" + email + "\n" + password + "\n" + gender + "\n" + formData.hobby)
-    alert(formData.name + "\n" + formData.email + "\n" + formData.password + 
-    "\n" + formData.gender + "\n" + formData.hobby)
-
+    // alert(formData.name + "\n" + formData.email + "\n" + formData.password + 
+    // "\n" + formData.gender + "\n" + formData.hobby)
+    dispatch(setUserEmail(formData.email))
+    Navigate("/");
     ev.preventDefault();
   }
   return(
     <FormPage email={formData.email}
               name={formData.name}
               password={formData.password}
+              count={count}
               isPasswordError={isPasswordError}
               handleSubmit={handleSubmit}
               handleChange={handleChangeformData}/>

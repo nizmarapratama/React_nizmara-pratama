@@ -6,6 +6,7 @@ const FormPage = (
     email,
     name,
     password,
+    count,
     isPasswordError,
     handleChange,
     handleSubmit
@@ -14,6 +15,7 @@ const FormPage = (
   return (
     <Stack gap={2}>
       <h2>Form Page</h2>
+      <span className="dispalay-6">count</span>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3 d-flex flex-column align-items-start">
           <Form.Label>Name</Form.Label>
