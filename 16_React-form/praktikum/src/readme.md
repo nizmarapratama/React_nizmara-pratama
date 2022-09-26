@@ -249,4 +249,3 @@ Bisa kapan saja menggunakan JavaScript ?
 8. Hasil data yang tidak Sesuai
    ![image](img/Hasil-data-tidak-sesuai.jpg)
    ![image](img/Hasil-data-tidak-sesuai-2.jpg)
-   
