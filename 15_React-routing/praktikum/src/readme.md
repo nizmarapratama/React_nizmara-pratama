@@ -110,7 +110,7 @@ Parameter URL adalah suatu parameter yang nilainya diterapkan secara dinamis di 
 # Assigment React Routing 
 
 ## 1. Home.js
-   [img](img/Home-1.js.jpg)
+   [image](img/Home-1.js.jpg)
 
    [image](img/Home-2.js.jpg)
 
