@@ -104,3 +104,51 @@ Parameter URL adalah suatu parameter yang nilainya diterapkan secara dinamis di 
 2. useParams mengembalikan objek pasangan kunci/nilai parameter URL. Gunakan untuk mengakses match.params dari <Route> saat ini.
 
 3. useRouteMatch mencoba mencocokkan URL saat ini dengan cara yang sama seperti <Route>. Ini sebagian besar berguna untuk mendapatkan akses ke data kecocokan tanpa benar-benar merender <Route>.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Assigment React Routing 
+
+## 1. Home.js
+   [image](img/Home.js.jpg)
+
+## 2. Navbar.js 
+   [image](img/Navbar.js.jpg)
+
+## 3. ToDoInput.js
+   [image](img/ToDoInput.js.jpg)
+
+## 4. ToDoList.js
+   [image](img/ToDoList.js.jpg)
+
+## 5. about-app.jsx
+   [image](img/about-app.jsx.jpg)
+
+## 6. about-author.jsx
+   [image](img/about-author.jsx.jpg)
+
+## 7. about.jsx
+   [image](img/about.jsx.jpg)
+
+## 8. App.js
+   [image](img/App.js.jpg)
+
+## 9. index.js
+   [image](img/index.js.jpg)
+
+# HASIL
+
+## 1. Hasil ToDoInput
+   [image](img/Hasil-ToDoInput.jpg)
+
+## 2. Hasil about
+   [image](img/Hasil-about.jpg)
+
+## 3. Hasil about-app
+   [image](img/Hasil-aboutapp.jpg)
+
+## 4. Hasil about-author 
+   [image](img/Hasil-aboutauthor.jpg)
+
+## 5. Hasil NotFound
+   [image](img/Hasil-notfound.jpg)
