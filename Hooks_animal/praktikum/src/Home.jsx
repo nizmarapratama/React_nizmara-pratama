@@ -21,6 +21,12 @@ const Home = () => {
             <Link to="/form">
             <button className="btn btn-success">Form</button>
             </Link>
+            <Link to="/read-article">
+            <button className="btn btn-success">Read Article</button>
+            </Link>
+            <Link to="/create-article">
+            <button className="btn btn-success">Create Article</button>
+            </Link>
     </div>
     )
 }
