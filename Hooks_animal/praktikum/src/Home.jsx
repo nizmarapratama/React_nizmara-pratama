@@ -10,7 +10,7 @@ const Home = () => {
     const dispatch = useSelector(state);
     return (
         <div className="d-flex flex-column align-items-center">
-            <span className="display-3"></span>
+            <span className="display-5">{email}</span>
             <span className="display-4">{count}</span>
             <button className="mb-3" onClick={() => dispatch()}>
                 +
@@ -26,6 +26,9 @@ const Home = () => {
             </Link>
             <Link to="/create-article">
             <button className="btn btn-success">Create Article</button>
+            </Link>
+            <Link to="/delete-article">
+            <button className="btn btn-success">Delete Article</button>
             </Link>
     </div>
     )
