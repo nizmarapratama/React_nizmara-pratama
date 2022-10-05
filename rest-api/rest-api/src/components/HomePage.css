@@ -1,0 +1,11 @@
+.card-container{
+    border: 1px solid lightgrey;
+    border-radius: 16px;
+    padding: 8px 2px;
+}
+
+.card-image{
+    width: 20vw;
+    height: 20vh;
+    object-fit: contain;
+}
