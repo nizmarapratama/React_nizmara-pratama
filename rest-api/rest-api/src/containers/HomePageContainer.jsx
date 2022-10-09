@@ -1,11 +1,14 @@
 import React ,{useState, useEffect} from "react";
 import HomePage from "../components/HomePage.jsx";
 import { client } from "../api.js";
+import { useDispatch, useSelector } from "react-redux";
+import { setCards } from "../features/dataSlice.js";
 
 const HomePageContainer = () => {
-  const [cards, setCards] = useState([]);
+  const cards = useSelector ((state) => state.data.cards);
+  const dispatch = useDispatch();
   const [isLoading, setIsLoading] = useState(true);
-  console.log(cards);
+  
   const getAllCard = async () => {
     const response = await client.get("/");
     return response.data.data
@@ -14,7 +17,7 @@ const HomePageContainer = () => {
   useEffect(() => {
     getAllCard()
       .then((res) => {
-        setCards(res.slice(0,50));
+        dispatch(setCards(res.slice(0,50)));
         setIsLoading(false);
       })
       .catch((err) => {
