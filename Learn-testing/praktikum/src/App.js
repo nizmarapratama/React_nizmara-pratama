@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import { Button } from 'bootstrap';
+import { Stack } from 'react-bootstrap';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Stack gap={3}>
+      <Button variant="primary">Tombol</Button>
+    <Button variant="succes">Tombol 2</Button>
+    <Button variant="info">Tombol 3</Button>      
+    </Stack>
+  )
 }
 
 export default App;
