@@ -47,10 +47,10 @@ React Testing Library menawarkan berbagai fungsi untuk mendapatkan elemen. Eleme
 
 ## Katagori Testing
 
-<!-- - LabelText: getByLabelText: <label for="search" />
+- LabelText: getByLabelText: <label for="search" />
 - PlaceholderText: getByPlaceholderText: <input placeholder="search" />
 - AltText: getByAltText: <img alt="profile" />
-- DisplayValue: getByDisplayValue: <input value="javaScript"/> -->
+- DisplayValue: getByDisplayValue: <input value="javaScript"/>
 
 ## Handle Asynchronous
 
