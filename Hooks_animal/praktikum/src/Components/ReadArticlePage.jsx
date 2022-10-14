@@ -1,23 +1,24 @@
 import React from "react";
-import { Button, Stack } from "react-bootstrap";
+import { Button, Stack, Spinner } from "react-bootstrap";
 
 const ReadArticlePage = (
     {
-        aticles,
-        loading
+        articles,
+        loading,
+        // setReload
     }
 ) => {
     return (
-        <Stack>
+        <Stack gap={3} className="align-items-center">
             Read Article
-            <Button>Refresh</Button>
+            {/* <Button onClick{() => setReload()}>Refresh</Button> */}
             {
                 loading
                 ?
                 <Spinner animation="grow" />
                 :
-                articles.map((article) => (
-                    <div key={article.id}>{article.title}</div> 
+                articles?._onetomany_article.map((article) => (
+                    <li key={article.id}>{article.title}</li> 
                 ))
             }
         </Stack>
