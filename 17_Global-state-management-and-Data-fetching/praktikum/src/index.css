@@ -7,7 +7,7 @@
 }
 body {
   margin: 0;
-  background-image: url(../public/assets/picture2.jpg);
+  background-image: url(../public/assets/sample-4.jpg);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,7 +17,7 @@ body {
 }
 .home .title {
   letter-spacing: 2px;
-  background: linear-gradient(#f07a1f, #266ee3);
+  background: linear-gradient(#12e2c6, #d827cf);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4rem;
@@ -61,7 +61,7 @@ body {
   width: 80px;
 }
 .container-todo button:hover {
-  color: #ffa29a;
+  color: #c01606;
 }
 
 /* Todo List */
@@ -87,7 +87,7 @@ body {
   text-align: start;
 }
 .todo-list p:hover {
-  color: #ffa29a;
+  color: #c01606;
 }
 .todo-list button {
   font-weight: bold;
@@ -97,5 +97,5 @@ body {
   background-color: transparent;
 }
 .btn-delete-list:hover {
-  color: #ffa29a;
+  color: #c01606;
 }
