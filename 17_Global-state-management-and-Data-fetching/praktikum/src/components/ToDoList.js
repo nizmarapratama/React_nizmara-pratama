@@ -17,7 +17,7 @@ const ToDoList = () => {
               dispatch(handleChange(todo.id));
             }}
           />
-          <p style={todo.completed ? { textDecoration: "line-through", color: "#008B8B" } : { textDecoration: "none" }}>{todo.title}</p>
+          <p style={todo.completed ? { textDecoration: "line-through", color: "#c01606" } : { textDecoration: "none" }}>{todo.title}</p>
           <button
             onClick={() => {
               dispatch(hapusTodo(todo.id));
