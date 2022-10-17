@@ -70,3 +70,9 @@ Netlify adalah salah satu platform penyedia layanan build tools sekaligus Contin
 4. Verrify akun melalui browser, pilih Authorize
 5. Pilih "Creat $ configure a new site".
 6. Pilih lokasi file yang akan di deploy. Pilih ./build.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Assigment ReactJS Topic deployment
+
+Deploylah code create react project yang sedikit diubah. Deploy menggunakan _Surge/Netlify_. Link deploy memiliki format
