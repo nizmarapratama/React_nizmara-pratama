@@ -77,7 +77,7 @@ Netlify adalah salah satu platform penyedia layanan build tools sekaligus Contin
 
 Deploylah code create react project yang sedikit diubah. Deploy menggunakan _Surge/Netlify_. Link deploy memiliki format "taskDeploy-namaKalian", Kemudian dikumpulkan.
 
-## [TaksDeploy-NizmaraPratama](TaskDeploy-NizmaraPratama.surge.sh)
+## [TaskDeploy-NizmaraPratama.surge.sh](TaskDeploy-NizmaraPratama.surge.sh)
 
 ## Gambar Deployment
 
