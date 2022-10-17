@@ -45,6 +45,7 @@ const Animal = () => {
             }
         </div>
         </div>
-    )
+      )
+   }
 
 export default Animal;

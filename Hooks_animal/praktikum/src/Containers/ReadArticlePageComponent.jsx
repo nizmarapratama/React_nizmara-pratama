@@ -20,6 +20,12 @@ ReadArticlePageContainer = () => {
     // const { data, loading, error } = useQuery(GetArticles);
     // const [articles, setArticles] = useState([]);
     // const [loading, setLoading] = useState(true);
+    const handleLoad = () => {
+        refetch();
+    }
+    useEffect (() => {
+        getOneToManyArticles()
+    }, [])
 
         // const setReload = () => {
         //     setLoading(true);
