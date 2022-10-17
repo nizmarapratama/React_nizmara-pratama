@@ -19,7 +19,7 @@ Ini karena membuat versi produksi untuk aplikasi kita di dalam folder _build_. I
 Untuk menjalankan aplikasi yang optimal di lokal komputer kita, kita bisa menggunakan _serve_.
 
 - install serve npm intall -g serve
-- jalankan servel di lokal seerve -s build
+- jalankan servel di lokal serve -s build
 
 # Deployment
 
