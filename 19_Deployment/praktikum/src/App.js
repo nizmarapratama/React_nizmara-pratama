@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          deployment
+          https://github.com/nizmarapratama/React_nizmara-pratama
         </a>
       </header>
     </div>
