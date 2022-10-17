@@ -75,4 +75,15 @@ Netlify adalah salah satu platform penyedia layanan build tools sekaligus Contin
 
 # Assigment ReactJS Topic deployment
 
-Deploylah code create react project yang sedikit diubah. Deploy menggunakan _Surge/Netlify_. Link deploy memiliki format
+Deploylah code create react project yang sedikit diubah. Deploy menggunakan _Surge/Netlify_. Link deploy memiliki format "taskDeploy-namaKalian", Kemudian dikumpulkan.
+
+## LINK Deployment :
+`TaskDeploy-NizmaraPratama.surge.sh`
+
+## Gambar Deployment
+
+1. Success Deployment
+   ![image](img/Success-Published.jpg)
+
+2. Hasil Deployment
+   ![image](img/Hasil-Deployment.jpg)
