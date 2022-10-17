@@ -11,11 +11,12 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="deployment-ara.surge.sh"
+          href="https://github.com/nizmarapratama/React_nizmara-pratama
+          </a>"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://github.com/nizmarapratama/React_nizmara-pratama
+          GitHub saya
         </a>
       </header>
     </div>
