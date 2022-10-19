@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { client, getArticle } from "../api";
 import ReadArticlePage from "../Components/ReadArticlePage";
 import { useState } from "react";
-import { gql, useLazyQuery, useQuery } from "@apollo/client";
+import { gql, useLazyQuery, useQuery, useSubscription } from "@apollo/client";
 
 const GetArticles = gql`
         query MyQuery {
@@ -15,17 +15,30 @@ const GetArticles = gql`
         }
      `;
 
+const SubscriptionArticles = gql`
+        subscriptionArticle MySubscription {
+            _onetomny_article {
+                author_id
+                id
+                rating
+                title
+            }
+        }
+`;
+
 ReadArticlePageContainer = () => {
-    const [getOneToManyArticles, {data, loading, error}] = useLazyQuery(GetArticles);
+    // const [getOneToManyArticles, {data, loading, error}] = useLazyQuery(GetArticles);
+    const { data, loading, error } = useSubscription(SubscriptionArticles);
+    console.log()
     // const { data, loading, error } = useQuery(GetArticles);
     // const [articles, setArticles] = useState([]);
     // const [loading, setLoading] = useState(true);
-    const handleLoad = () => {
-        refetch();
-    }
-    useEffect (() => {
-        getOneToManyArticles()
-    }, [])
+    // const handleLoad = () => {
+    //     refetch();
+    // }
+    // useEffect (() => {
+    //     getOneToManyArticles()
+    // }, [])
 
         // const setReload = () => {
         //     setLoading(true);
