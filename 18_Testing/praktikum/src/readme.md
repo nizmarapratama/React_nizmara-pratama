@@ -23,7 +23,7 @@ Jest = Test runner pada JavaScript yang memungkinkan kita mengakses DOM melalui 
 
 # Create basic testing with RTL
 
-## Render dan bug 
+# Render dan bug 
 Fungsi Render RTL akan merender file JSX apa pun yang dibutuhkan. Untuk meyakinkan bahwa file JSX sudah terender, kita bisa menggunakan fungsi debug RTL. Selalu gunakan fungsi debug RTL apabila kita tidak yakin seperti apa hasil dari fungsi render RTL.
 
 # Testing Custom Hook
