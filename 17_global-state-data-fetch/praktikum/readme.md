@@ -112,14 +112,14 @@ Ini memberi pengembang kemampuan untuk mengatur aplikasi yang rumit menjadi sumb
 ## HASIL
 
 1. Hasura
-  - [image](image/Hasura.JPG)
+  - [image](screenshots/Hasura.JPG)
 
 2. Postman
-  - [image](image/Postman.JPG)
+  - [image](screenshots/Postman.JPG)
 
 3. Axios
-  - [image](image/Axios-1.JPG)
-  - [image](image/Axios-2.JPG)
+  - [image](screenshots/Axios-1.JPG)
+  - [image](screenshots/Axios-2.JPG)
 
 4. Hasil
-  - [image](image/Screenshots-hasil.JPG)
+  - [image](screenshots/Screenshots-hasil.JPG)
