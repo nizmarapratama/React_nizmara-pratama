@@ -101,3 +101,22 @@ Ini memberi pengembang kemampuan untuk mengatur aplikasi yang rumit menjadi sumb
 
 ----------------------------------------------------------------------------------------------
 
+1. Soal untuk nilai Global State Management (REDUX) (skala 0-100)
+   Tambahkan redux dan redux-persist pada assignment sebelumnya.
+
+
+2. Soal untuk nilai data fetching (0-100)
+   Gunakan lah hasura untuk membuat database dan juga Restfull API sehingga memiliki struktur data.
+
+- Hasura
+  [image](image/Hasura.JPG)
+
+- Postman
+  [image](image/Postman.JPG)
+
+- Axios
+  [image](image/Axios-1.JPG)
+  [image](image/Axios-2.JPG)
+
+- Hasil
+- [image](image/Screenshots-hasil.JPG)
