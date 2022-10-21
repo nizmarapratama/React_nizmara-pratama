@@ -100,6 +100,7 @@ Di sisi lain, React adalah salah satu library JavaScript frond-end paling famili
 Ini memberi pengembang kemampuan untuk mengatur aplikasi yang rumit menjadi sumber daya yang sederhana Mudah bagi klien eksternal untuk membangun REST API Anda tanpa komplikasi. Mudah bagi klien eksternal untuk membangun REST API Anda tanpa komplikasi apa pun. Skalanya sangat mudah, REST API bukan khusus bahasa atau platform, tetapi dapat digunakan dengan bahasa apa pun atau dijalankan di platform apa pun.
 
 ----------------------------------------------------------------------------------------------
+## SOAL
 
 1. Soal untuk nilai Global State Management (REDUX) (skala 0-100)
    Tambahkan redux dan redux-persist pada assignment sebelumnya.
@@ -108,15 +109,17 @@ Ini memberi pengembang kemampuan untuk mengatur aplikasi yang rumit menjadi sumb
 2. Soal untuk nilai data fetching (0-100)
    Gunakan lah hasura untuk membuat database dan juga Restfull API sehingga memiliki struktur data.
 
-- Hasura
-  [image](image/Hasura.JPG)
+## HASIL
 
-- Postman
-  [image](image/Postman.JPG)
+1. Hasura
+  - [image](image/Hasura.JPG)
 
-- Axios
-  [image](image/Axios-1.JPG)
-  [image](image/Axios-2.JPG)
+2. Postman
+  - [image](image/Postman.JPG)
 
-- Hasil
-- [image](image/Screenshots-hasil.JPG)
+3. Axios
+  - [image](image/Axios-1.JPG)
+  - [image](image/Axios-2.JPG)
+
+4. Hasil
+  - [image](image/Screenshots-hasil.JPG)
