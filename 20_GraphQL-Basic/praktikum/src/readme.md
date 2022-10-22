@@ -41,4 +41,22 @@ Mutasi pada dasarnya adalah fungsi untuk memperbarui, menyisipkan dan menghapus 
 
 - Ketika data dimodifikasi maka klien akan mendapatkan data yang diperbarui secara langsung secara real-time. Jika kami berlangganan pada pengumpulan orang maka setiap kali orang baru ditambahkan atau ketika data dihapus atau diubah maka kami akan mendapatkan data yang diperbarui secara real-time langsung ke klien kami. Berlangganan hanya akan terjadi di sisi klien bukan sisi server.
 
-## Hasura & Heroku
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Hasil Praktikum
+
+1. Soal 6 Query dan Hasil
+   - [image](img/Soal-6_query.JPG)
+   - [image](img/Hasil_soal-6.JPG)
+
+2. Soal 7 mutation dan Hasil result
+   - [image](img/Soal-7_mutation.jpg)
+   - [iamge](img/Hasil_soal-7.jpg)
+
+3. Soal 8 mutation dan Hasil result
+   - [iamge](img/Soal-8_mutation.jpg)
+   - [image](img/Hasil_soal-8.jpg)
+
+## Tempat pengumpulan json file
+
+- [query](quey.json)
