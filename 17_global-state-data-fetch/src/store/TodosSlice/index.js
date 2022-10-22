@@ -13,7 +13,7 @@ let initialState = [
 ];
 
 export const getTodos = createAsyncThunk("todos/getTodos", async () => {
-  const response = await axios.get("https://certain-pika-47.hasura.app/api/rest/TODOs");
+  const response = await axios.get("https://certain-pika-47.hasura.app/api/rest/todos");
 
   if (response.status === 200) {
     const todos = await response.data;
@@ -67,10 +67,11 @@ export const todosSlice = createSlice({
   },
   extraReducers: {
     [getTodos.fulfilled]: (state, action) => {
+      console.log(action.payload.todos.todos);
       return action.payload.todos.todos;
     },
     [getTodos.pending]: (state, action) => {
-      console.log("Loading...");
+      // console.log("Loading...");
     },
   },
 });
