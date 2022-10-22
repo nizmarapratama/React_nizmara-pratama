@@ -80,3 +80,14 @@ Software yang menggunakan Relational Database Model sebagai dasarnya, contohnya:
 ## FUNGTION
 sebuah kumpulan statment yang akan mengembalikan sebuah nilai baik pada pemanggilannya.
 
+---------------------------------------------------------------------------
+
+## Hasil Praktikum
+
+1. Soal dan jawaban
+   - [image](img/Soal_1.jpg)
+   - [image](img/Hasil-OneToOne.jpg)
+
+2. Soal dan jawaban
+   - [image](img/Soal_2.jpg)
+   - [image](img/Hasil-onetomany.jpg)
