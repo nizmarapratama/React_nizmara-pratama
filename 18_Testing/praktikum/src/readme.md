@@ -29,3 +29,8 @@ Fungsi Render RTL akan merender file JSX apa pun yang dibutuhkan. Untuk meyakink
 # Testing Custom Hook
 Library yang di gunakan untuk mengetes custom hook, kita menggunakan React Hooks Testing Library. Dia akan memberikan kita alat-alat untuk mengetes hooks tanpa merender satu komponen.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Hasil Testing 
+
+[image](img/Hasil_test.jpg)
