@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./Home.css"
+import { graphql, useQuery } from "@apollo/client";
 
 function PassengerInput(props) {
   const [state, setState] = useState({
