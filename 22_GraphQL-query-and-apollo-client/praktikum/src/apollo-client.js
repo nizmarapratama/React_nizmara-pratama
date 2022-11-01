@@ -1,12 +1,11 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
-const ApolloClient = new ApolloClient({
-    uri: "https://wired-hedgehog-70.hasura.app/v1/graphql",
+const client = new ApolloClient({
+    uri: "https://apt-antelope-15.hasura.app/v1/graphql",
     cache: new InMemoryCache(),
-    Headers: {
-        "x-hasura-admin-secret":
-        "4GG61xsYJgxM7QJ2TNpx6HFyGg2QmGsVf3TiAEGZLh6OiJ1HycMzaQlJTVvUb0h3"
+    headers: {
+        "x-hasura-admin-secret": "3KW2hpmmg1XwJb86FaFU4RvsNuaRsOfPyFekCj3eNFpgjoaDDQNSOFh3fMZxJJEQ"
     }
 });
 
-export default ApolloClient;
+export default client;
