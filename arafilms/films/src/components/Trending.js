@@ -5,6 +5,7 @@ import infiniteImage from "../assets/images/trending/infinite.jpg"
 import jokerImage from "../assets/images/trending/joker.jpg"
 import lightyearImage from "../assets/images/trending/lightyear.jpg"
 import morbiusImage from "../assets/images/trending/morbius.jpg"
+import blackadamImage from "../assets/images/trending/blackadam.jpg"
 
 const Trending = () => {
   return (
@@ -126,7 +127,34 @@ const Trending = () => {
               </div>
             </Card>
           </Col>
+          <Col md={4} className="movieWrapper" id="trending">
+            <Card className="movieImage">
+              <Image src={blackadamImage} alt="Black Adam" className="images" />
+              <div className="bg-dark">
+                <div className="p-2 m-1 text-white">
+                  <Card.Title className="text-center">Black Adam</Card.Title>
+                  <Card.Text className="text-left">
+                    Last updated 3 mins ago
+                  </Card.Text>
+                </div>
+              </div>
+            </Card>
+          </Col>
         </Row>
+        {/* <Col md={4} className="movieWrapper" id="trending">
+            <Card className="movieImage">
+              <Image src={blackadamImage} alt="Black Adam" className="images" />
+              <div className="bg-dark">
+                <div className="p-2 m-1 text-white">
+                  <Card.Title className="text-center">Black Adam</Card.Title>
+                  <Card.Text className="text-left">
+                    Last updated 3 mins ago
+                  </Card.Text>
+                </div>
+              </div>
+            </Card>
+          </Col>
+        </Row> */}
       </Container>
     </div>
   )

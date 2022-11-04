@@ -5,7 +5,7 @@
   }
   
   .intro {
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -33,7 +33,7 @@
 
   .About {
     height: auto;
-    background: url("../assets/images/bg/romance.jpg");
+    background: black;
     background-size: cover;
   }
   
