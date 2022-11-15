@@ -17,16 +17,16 @@ header {
     margin-bottom: 190px;
 }
 
-header h1 {
+/* header h1 {
     font: normal 32px/1.5 'open Sans', sans-serif;
     color: #00922c;
     padding-top: 16px;
-}
+} */
 
-header h2 {
+/* header h2 {
     color: #000000;
     font-size: 30px;
-}
+} */
 
 footer {
     position: fixed;
@@ -34,12 +34,12 @@ footer {
 }
 
 .footer {
-    background-color: #040a18;
+    background-color: #007997f6;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
-    padding: 50px 50px 60px 50px;
+    padding: 25px 50px 20px 25px;
     margin-top: 80px;
 }
 
@@ -80,7 +80,7 @@ footer {
 }
 
 .footer .footer-copyright {
-    color: #8f9296;
+    color: #b6bec9;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -121,7 +121,7 @@ footer {
 }
 
 .footer .footer-center p a {
-    color: rgb(22, 255, 177);
+    color: rgb(1, 64, 236);
     text-decoration: none;
 }
 

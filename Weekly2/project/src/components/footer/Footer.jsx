@@ -1,17 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 
 class Footer extends React.Component {
     render () {
         return (
             <div>
             <header>
-            <h1>Weekly 1</h1>
-            <h2>My Money Footer</h2>
+            {/* <h1>Weekly 1</h1>
+            <h2>My Money Footer</h2> */}
             <footer className="footer">
               <div className="footer-left">
                 <h4>MyMoney digital</h4>
                 <div className="credit-cards">
-                  <img src="img/footer-brand.png" alt="" />
+                  <img src="assets/img/footer-brand.png" alt="" />
                 </div>
                 <p className="footer-copyright">2022 Aracoding</p>
               </div>
