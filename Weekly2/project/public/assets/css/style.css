@@ -121,7 +121,7 @@ footer {
 }
 
 .footer .footer-center p a {
-    color: rgb(1, 64, 236);
+    color: rgb(63, 141, 253);
     text-decoration: none;
 }
 
@@ -165,7 +165,7 @@ footer {
 }
 
 .footer .footer-media a:hover {
-    background-color: rgb(0, 122, 82);
+    background-color: rgb(63, 141, 253);
 }
 
 @media (max-width:880px) {
